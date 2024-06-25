@@ -13,7 +13,7 @@
     <selenium.version>4.19.0</selenium.version>
     <webdriver.manager.version>5.8.0</webdriver.manager.version>
     <testNG.version>7.8.0</testNG.version>
-    <suiteXmlFile>testNG.xml</suiteXmlFile>
+    <suiteXmlFile>TestNG.xml</suiteXmlFile>
     <cucumber.version>7.15.0</cucumber.version>
     <automationCore.version>3.1</automationCore.version>
     <rest.assured.version>4.3.3</rest.assured.version>
