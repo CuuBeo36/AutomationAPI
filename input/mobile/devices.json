@@ -1,0 +1,67 @@
+{
+  "Device1": {
+    "platformName": "Android",
+    "appium:deviceName ": "Small_Phone_API_30",
+    "appium:avd": "Small_Phone_API_30",
+    "appium:appPackage": "com.loginmodule.learning",
+    "appium:appActivity": "com.loginmodule.learning.activities.LoginActivity",
+    "appium:unicodeKeyboard": "true",
+    "appium:resetKeyboard": "true",
+    "appium:app": "Sample_Android_App_Login_Tes_4.0.apk"
+  },
+  "Device2": {
+    "platformName": "Android",
+    "appium:deviceName ": "Pixel_3a_API_34",
+    "appium:platformVersion": "11.0",
+    "appium:browserName": "",
+    "appium:avd": "Pixel_3a_API_34",
+    "appium:appPackage": "com.swaglabsmobileapp",
+    "appium:appActivity": "com.swaglabsmobileapp.MainActivity",
+    "appium:unicodeKeyboard": "true",
+    "appium:resetKeyboard": "true"
+  },
+  "Device3": {
+    "platformName": "Android",
+    "appium:deviceName ": "Medium Phone API 34",
+    "appium:platformVersion": "14.0",
+    "appium:browserName": "Chrome",
+    "appium:avd": "Medium_Phone_API_34",
+    "appium:unicodeKeyboard": "true",
+    "appium:resetKeyboard": "true"
+  },
+  "Device4": {
+    "platformName": "Android",
+    "appium:deviceName ": "Pixel Tablet API TiramisuPrivacySandbox",
+    "appium:platformVersion": "14.0",
+    "appium:browserName": "Chrome",
+    "appium:avd": "Pixel_Tablet_API_TiramisuPrivacySandbox",
+    "appium:unicodeKeyboard": "true",
+    "appium:resetKeyboard": "true"
+  },
+  "Device5": {
+    "platformName": "android",
+    "appium:platformVersion": "13.0",
+    "appium:deviceName": "Samsung Galaxy S23 Ultra",
+    "appium:app": "bs://b51a5825b8cf8617d9c0c4d1d0dad089967c6da7",
+    "bstack:options": {
+      "projectName" : "LoginApp",
+      "userName": "cuubeo_Su8GIc",
+      "accessKey": "xJ6xoV1z9zii1hxeenGp",
+      "interactiveDebugging": "true",
+      "debug": "true"
+    }
+  },
+  "Device6": {
+    "browserName": "safari",
+    "bstack:options": {
+      "projectName" : "MobileWeb",
+      "appiumVersion" : "1.21.0",
+      "osVersion" : "17",
+      "deviceName": "iPhone 13",
+      "userName": "cuubeo_Su8GIc",
+      "accessKey": "xJ6xoV1z9zii1hxeenGp",
+      "interactiveDebugging": "true",
+      "debug": "true"
+    }
+  }
+}
