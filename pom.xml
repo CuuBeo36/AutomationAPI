@@ -154,8 +154,8 @@
       <artifactId>automation-core</artifactId>
       <version>${automationCore.version}</version>
       <scope>system</scope>
-<!--      <systemPath>${project.basedir}/jar/automation-core-3.1.jar</systemPath>-->
-<systemPath>C:/Users/cuube/Automation/AutomationCore/target/automation-core-3.1.jar</systemPath>
+      <systemPath>${project.basedir}/jar/automation-core-3.1.jar</systemPath>
+<!--<systemPath>C:/Users/cuube/Automation/AutomationCore/target/automation-core-3.1.jar</systemPath>-->
     </dependency>
     <dependency>
       <groupId>com.automation</groupId>
@@ -163,8 +163,8 @@
       <version>${automationCore.version}</version>
       <scope>system</scope>
       <classifier>test-sources</classifier>
-<!--      <systemPath>${project.basedir}/jar/automation-core-3.1-test-sources.jar</systemPath>-->
-      <systemPath>C:/Users/cuube/Automation/AutomationCore/target/automation-core-3.1-test-sources.jar</systemPath>
+      <systemPath>${project.basedir}/jar/automation-core-3.1-test-sources.jar</systemPath>
+<!--      <systemPath>C:/Users/cuube/Automation/AutomationCore/target/automation-core-3.1-test-sources.jar</systemPath>-->
     </dependency>
     <dependency>
       <groupId>com.automation</groupId>
@@ -172,8 +172,8 @@
       <version>${automationCore.version}</version>
       <scope>system</scope>
       <classifier>tests</classifier>
-<!--      <systemPath>${project.basedir}/jar/automation-core-3.1-tests.jar</systemPath>-->
-                  <systemPath>C:/Users/cuube/Automation/AutomationCore/target/automation-core-3.1-tests.jar</systemPath>
+      <systemPath>${project.basedir}/jar/automation-core-3.1-tests.jar</systemPath>
+<!--                  <systemPath>C:/Users/cuube/Automation/AutomationCore/target/automation-core-3.1-tests.jar</systemPath>-->
     </dependency>
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
