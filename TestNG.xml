@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-
-<suite name="TestNG-Cucumber Suite" thread-count="10" parallel="tests">
-    <test name="Apple test">
+<suite name="TestNG-JsonPlaceHolder Suite">
+    <listeners>
+        <listener class-name="com.automation.core.utils.ListenerForExtentReport"></listener>
+    </listeners>
+    <test name="AutomationAPI">
         <classes>
             <class name="runner.CucumberRunnerTests" />
         </classes>

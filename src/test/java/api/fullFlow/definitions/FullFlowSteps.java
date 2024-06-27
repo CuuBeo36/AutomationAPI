@@ -4,6 +4,7 @@ import api.fullFlow.pageObject.LoginPage;
 import api.fullFlow.pojo.User;
 import com.automation.core.utils.BStackJson;
 import com.automation.core.utils.JsonUtils;
+import com.automation.core.utils.ListenerForExtentReport;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.cucumber.java.en.And;
@@ -16,15 +17,17 @@ import io.restassured.specification.RequestSpecification;
 import org.json.JSONObject;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.Listeners;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+
+@Listeners(ListenerForExtentReport.class)
 
 public class FullFlowSteps {
     private static final String BASE_URL = "https://reqres.in/api/users/2";
     private Response response;
     AppiumDriver mobileDriver;
-
     private String email;
 
     @Given("Set up the API URL")

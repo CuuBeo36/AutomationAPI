@@ -1,5 +1,6 @@
 package api.jsonplaceholder.definitions;
 
+import com.automation.core.utils.ListenerForExtentReport;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -7,8 +8,9 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.asserts.SoftAssert;
-
+@Listeners(ListenerForExtentReport.class)
 public class RestApiSteps {
     private static final String BASE_URL = "https://jsonplaceholder.typicode.com/posts";
     private Response response;
