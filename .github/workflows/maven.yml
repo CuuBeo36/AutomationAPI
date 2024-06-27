@@ -36,3 +36,9 @@ jobs:
       with:
         name: Jar files
         path: target/*.jar
+
+    - name: Deploy pages
+      uses: JamesIves/github-pages-deploy-action@v4.5.0
+      with:
+        branch: gh-pages
+        folder: ./ExtentReport/Reports
