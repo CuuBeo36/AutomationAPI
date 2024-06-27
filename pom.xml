@@ -15,7 +15,7 @@
     <testNG.version>7.8.0</testNG.version>
     <suiteXmlFile>TestNG.xml</suiteXmlFile>
     <cucumber.version>7.15.0</cucumber.version>
-    <automationCore.version>3.1</automationCore.version>
+    <automationCore.version>3.4</automationCore.version>
     <rest.assured.version>4.3.3</rest.assured.version>
   </properties>
   <dependencies>
@@ -154,7 +154,7 @@
       <artifactId>automation-core</artifactId>
       <version>${automationCore.version}</version>
       <scope>system</scope>
-      <systemPath>${project.basedir}/jar/automation-core-3.2.jar</systemPath>
+      <systemPath>${project.basedir}/jar/automation-core-${automationCore.version}.jar</systemPath>
 <!--<systemPath>C:/Users/cuube/Automation/AutomationCore/target/automation-core-3.1.jar</systemPath>-->
     </dependency>
     <dependency>
@@ -163,7 +163,7 @@
       <version>${automationCore.version}</version>
       <scope>system</scope>
       <classifier>test-sources</classifier>
-      <systemPath>${project.basedir}/jar/automation-core-3.2-test-sources.jar</systemPath>
+      <systemPath>${project.basedir}/jar/automation-core-${automationCore.version}-test-sources.jar</systemPath>
 <!--      <systemPath>C:/Users/cuube/Automation/AutomationCore/target/automation-core-3.1-test-sources.jar</systemPath>-->
     </dependency>
     <dependency>
@@ -172,7 +172,7 @@
       <version>${automationCore.version}</version>
       <scope>system</scope>
       <classifier>tests</classifier>
-      <systemPath>${project.basedir}/jar/automation-core-3.2-tests.jar</systemPath>
+      <systemPath>${project.basedir}/jar/automation-core-${automationCore.version}-tests.jar</systemPath>
 <!--                  <systemPath>C:/Users/cuube/Automation/AutomationCore/target/automation-core-3.1-tests.jar</systemPath>-->
     </dependency>
     <dependency>

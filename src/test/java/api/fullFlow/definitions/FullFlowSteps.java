@@ -65,7 +65,8 @@ public class FullFlowSteps {
     public void iSendAGETRequestToTheAPI1() throws MalformedURLException, InterruptedException {
         //Open app on mobile
         MutableCapabilities capabilities = new MutableCapabilities();
-        capabilities = BStackJson.getCapabilitiesFromJson("Device5");
+        String filePath = System.getProperty("user.dir") + "\\input\\mobile\\devices.json";
+        capabilities = BStackJson.getCapabilitiesFromJson(filePath,"Device5");
         mobileDriver = new AndroidDriver(new URL("https://hub.browserstack.com/wd/hub"), capabilities);
 
         //Login by email from API
