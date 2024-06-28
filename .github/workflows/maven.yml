@@ -35,7 +35,7 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4.5.0
       with:
         branch: gh-pages
-        folder: ./spark
+        folder: Reports
 
 #    - name: Upload Test Report
 #      uses: actions/upload-artifact@v4
