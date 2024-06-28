@@ -34,7 +34,7 @@ jobs:
     - name: Deploy pages
       uses: JamesIves/github-pages-deploy-action@v4.5.0
       with:
-        branch: master
+        branch: gh-pages
         folder: ./Reports
 
 #    - name: Upload Test Report
