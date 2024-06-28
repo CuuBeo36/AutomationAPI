@@ -37,8 +37,10 @@ jobs:
         name: Jar files
         path: target/*.jar
 
-    - name: Deploy pages
-      uses: JamesIves/github-pages-deploy-action@v4.5.0
+    - name: Upload test artifacts
+      uses: actions/upload-artifact@v4
       with:
         branch: master
-        folder: ./Reports
+        folder: Reports
+        name: Extent report
+        report-path: Reports/*.xml
