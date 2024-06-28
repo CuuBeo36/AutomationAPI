@@ -40,5 +40,5 @@ jobs:
     - name: Deploy pages
       uses: JamesIves/github-pages-deploy-action@v4.5.0
       with:
-        branch: gh-pages
+        branch: master
         folder: ./ExtentReport/Reports
